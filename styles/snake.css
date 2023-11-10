@@ -1,0 +1,76 @@
+.snake-game__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    display: none;
+}
+
+.snake-game {
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    max-width: 752px;
+    max-height: 502px;
+    margin: auto;
+}
+
+.snake-game__container {
+    background-color: #334155;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+.snake-game__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.snake-game__score {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.score, .max-score, .user {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.pause-button {
+    width: 100px;
+    height: 90px;
+    border-style: none;
+    border-radius: 1rem;
+    background-color: #1e293b;
+    margin: 15px 0px 0px 0px;
+}
+
+.pause-button:hover {
+    background-color: #6b7280;
+}
+
+.pause-button > img {
+    max-width: 80px;
+    max-height: 70px;
+    filter: invert();
+}
+
+.reset-button {
+    border-style: none;
+    font-size: 18px;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 0.3rem;
+    padding: 10px 20px;
+    background-color: #1e293b;
+    color: #fff;
+}
+
+.reset-button:hover {
+    background-color:#6b7280;
+}

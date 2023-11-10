@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paint - Canvas</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="kevv">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="A paint app to create your best drawings"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/page-style.css">
+    <link rel="stylesheet" href="../styles/paint-app.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <a class="menu-nav__title" href="../pages/index.html">Apps</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="paint">
+                <article class="paint-container">
+                    <header>
+                        <h2 class="paint__title">¡Dibuja!</h2>
+                    </header>
+                    <canvas class="canvas" width="730" height="550"></canvas>
+                    <aside class="selection">
+                        <input type="color" class="color">
+                        <input type="range" class="range" min="1" max="10">
+                        <button class="brush">Pintar</button>
+                        <button class="borrow">Borrar</button>
+                        <button class="borrow-drawing">Borrar dibujo</button>
+                    </aside>
+                </article>
+            </section>
+        </article>
+    </main>
+    <footer class="page-footer">
+        <h3 class="page-footer-title">Todos los derechos Reservados</h4>
+    </footer>
+    <script src="../scripts/paintApp.js"></script>
+</body>
+</html>

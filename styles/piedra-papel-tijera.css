@@ -1,0 +1,162 @@
+.game-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 35px;
+    gap: 5px;
+}
+
+.game-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: #222;
+}
+
+.game-subtitle{
+    font-size: 20px; 
+    color: #444;
+}
+
+.game-description {
+    color: #555;
+    max-width: 120vh;
+    padding: 10px 0px;
+}
+
+.game-intro-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.game-intro {
+    background-color: #333;
+    min-height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 500px;
+}
+
+.start-button {
+    padding: 10px;
+    width: 170px;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 0.4rem;
+    border-style: none;
+    background-color: #dc2626;
+    border: 1px solid #9994;
+}
+
+.game-selection-container {
+    display: none;
+    flex-direction: column;
+}
+
+.game__message {
+    text-align: center;
+    margin: 15px 0px;
+    margin-bottom: -28px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.elements-title {
+    font-weight: 700;
+}
+
+.game__images {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.rock, .paper, .scissors {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.element, .user-selection, .cpu-selection {
+    height: 220px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid #9995;
+    box-shadow: 2px 2px 10px #4445;
+}
+
+.user-selection, .cpu-selection  {
+    height: 300px;
+    width: 350px;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    margin-top: 2px;
+    transition: 0.2s;
+}
+
+.selection {
+    border-style: none;
+    background-color: #dc2626;
+    align-self: center;
+    border-radius: 0.3rem;
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+    outline: none;
+}
+
+.seleccion:hover {
+    background-color: #ef4444;  
+}
+
+.result-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.username, .cpu {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 23px;
+}
+
+.result {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.lose {
+    color: #f01e1e;
+}
+.win {
+    /* color: #22c55e; */
+    color: rgb(30, 255, 0);
+    text-shadow: '0px 1px 3px #4448;
+}
+
+.keep-playing {
+    color: #48e;
+    font-size: 18px;
+}

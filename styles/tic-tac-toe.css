@@ -1,0 +1,97 @@
+.tic-tac-toe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    padding: 30px 50px 30px 50px;
+    background-color: #334155;
+    width: 600px;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+.tic-tac-toe-container {
+    background-color: #f8f8f8;
+    width: 500px;
+    border: 3px solid #000;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    display: none;
+}
+
+.cell {
+    border: 3px solid #000;
+    height: 150px;
+    width: 166px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.score-leadeboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 600px;
+    display: none;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: ellipsis;
+    gap: 5px;
+}
+
+.username-1, .username-2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.username1-score, .username2-score {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.versus-span {
+    color: #fff;
+    font-size: 35px;
+}
+
+.game-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.game-status {
+    color: #fff;
+    font-size: 18px;
+}
+
+.reset-button {
+    border-style: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 0.3rem;
+    background-color: #1e293b;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.reset-button:hover {
+    background-color:#6b7280;
+}

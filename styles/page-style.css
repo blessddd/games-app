@@ -1,0 +1,193 @@
+* {
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    color: #222;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.menu-nav {
+    background-color: #670a0a;
+    padding: 10px;
+}
+
+.menu-nav__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 35px;
+    gap: 5px;
+}
+
+.game-info-section {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-basis: auto;
+    gap: 5px;
+}
+
+.game-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #222;
+}
+
+.game-subtitle {
+    font-size: 20px; 
+    color: #444;
+}
+
+.game-description {
+    max-width: 120vh;
+    color: #555;
+    padding: 10px 0px;
+}
+
+.line {
+    display: none;
+}
+
+.game-intro-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.game-intro {
+    background-color: #333;
+    min-height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 500px;
+}
+
+.inactive-game {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px;
+    width: 100%;
+    flex-shrink: 1;
+    display: none;
+}
+
+.inactive-game__message {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.start-button {
+    padding: 10px;
+    width: 170px;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 0.4rem;
+    border-style: none;
+    background-color: #dc2626;
+    border: 1px solid #9994;
+    text-align: center;
+    text-decoration: none;
+}
+.start-button:hover {
+    background-color: #f87171;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: 120px;
+    max-width: 650px;
+    border-radius: 0.3rem;
+    gap: 5px;
+    background-color: #991b1b;
+    display: none;
+}
+
+.title {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.send-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 1;
+    padding: 0px 20px 0px 0px;
+}
+
+.username-input {
+    margin: 0px 20px;
+    padding: 10px;
+    height: 40px;
+    width: 90%;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 2px 2px 10px #9994;
+    background-color: #f8f8f8;
+    border: 1px solid #9996;
+    font-size: 14px;
+}
+
+.username-input:focus {
+    outline: 2px solid #000;
+}
+
+.send-button {
+    border-style: none;
+    background-color: #dc2626;
+    align-self: center;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #3337;
+}
+
+.send-button:hover {
+    background-color: #ef4444;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #670a0a;
+}
+
+.page-footer-title {
+    flex-shrink: 1;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 16px;
+}

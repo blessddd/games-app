@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snake Game</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="kevv">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="The best Snake Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/page-style.css">    
+    <link rel="stylesheet" href="../styles/snake.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <a class="menu-nav__title" href="./index.html">Apps</a>
+        </nav>
+    </header>
+    <main>
+        <section class="game-container">
+            <section class="game-info-section">
+                <header>
+                    <h1 class="game-title">Snake</h1>
+                    <h2 class="game-subtitle">Developed by kevv</h2>
+                </header>
+                <p class="game-description">En Snake, tienes que controlar una serpiente intentando comer la mayor cantidad de manzanas. Tu objetivo es conseguir el mayor puntaje mientras evitas chocar contra las paredes y tu propia cola. ¡Muestra tus reflejos y habilidades en este juego clásico que te mantendrá entretenido durante horas!</p>
+                <hr class="line"/>    
+            <section>
+                <article class="register">
+                    <header>
+                        <h2 class="title">Ingresa tu nombre</h2>
+                    </header>
+                    <aside class="send-info">
+                        <input type="text" placeholder="Ingresa tu nombre" class="username-input">
+                        <button class="send-button">Enviar</button>
+                    </aside>
+                </article>
+            </section>
+            <section class="game-intro-container">
+                <article class="game-intro">
+                    <button class="start-button">Jugar</button>
+                </article>
+            </section>
+            <section class="inactive-game">
+                <span class="inactive-game__message">Lo sentimos, El juego no está disponible en tu dispositivo 😓</span>
+            </section>
+            <section class="snake-game__section">
+                <section class="snake-game__container">
+                    <article class="snake-game__options">
+                        <aside class="snake-game__score">
+                            <span class="user">Jugador: </span>
+                            <span class="score">Puntaje: 0</span>
+                            <span class="max-score">Máximo Puntaje: 0</span>
+                            <button class="reset-button">Reiniciar Juego</button>
+                        </aside>
+                        <button class="pause-button"><img src="../img/snake/Play_Pause_icon.png" alt="Icono de pausa"></button>
+                    </article>
+                    <canvas width="750" height="500" class="snake-game"></canvas>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <h3 class="page-footer-title">Todos los derechos reservados - blessddd's Inc</h3>
+    </footer>
+    <script src="../scripts/snake.js"></script>
+</body>
+</html>

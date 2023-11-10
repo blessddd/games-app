@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe Game</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="kevv">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="The best Tic Tac Toe Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/tic-tac-toe.css">
+    <link rel="stylesheet" href="../styles/page-style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <a class="menu-nav__title" href="./index.html">Apps</a>
+        </nav>
+    </header>
+    <main>
+        <section class="game-container">
+            <section class="game-info-section">
+                <header>
+                    <h1 class="game-title">Tic-Tac-Toe / Ta-Te-Ti</h1>
+                    <h2 class="game-subtitle">Developed by kevv</h2>
+                </header>
+                <p class="game-description">Ta-Te-Ti, es un juego que se juega de a dos jugadores, cada jugador intentará estrategicamente armar una linea de 3 ya sea vertical, horizontal o diagonal, ¿Serás capaz de vencer al otro?</p>
+                <hr class="line"/>
+            </section>
+            <section>
+                <article class="register">
+                    <header>
+                        <h2 class="title">Ingresa tu nombre</h>
+                    </header>
+                    <aside class="send-info">
+                        <input type="text" placeholder="Ingresa tu nombre" class="username-input">
+                        <button class="send-button">Enviar</button>
+                    </aside>
+                </article>
+            </section>
+            <section class="game-intro-container">
+                <article class="game-intro">
+                    <button class="start-button">Jugar</button>
+                </article>
+            </section>
+            <section class="inactive-game">
+                <span class="inactive-game__message">Lo sentimos, El juego no está disponible en tu dispositivo 😓</span>
+            </section>
+            <section class="tic-tac-toe-section">
+                <header class="score-leadeboard">
+                    <div class="player-1 score">
+                        <h2 class="username-1"></h2>
+                        <span class="username1-score"></span>
+                    </div>
+                    <span class="versus-span">Vs</span>
+                    <div class="player-2 score">
+                        <h2 class="username-2"></h2>
+                        <span class="username2-score"></span>
+                    </div>
+                </header> 
+                <aside class="game-information">
+                    <span class="game-status">Haz clic para iniciar el juego</span>
+                    <button class="reset-button">Reiniciar Juego</button>
+                </aside>
+                <article class="tic-tac-toe-container">
+                    <div class="cell" index="0"></div>
+                    <div class="cell" index="1"></div>
+                    <div class="cell" index="2"></div>
+                    <div class="cell" index="3"></div>
+                    <div class="cell" index="4"></div>
+                    <div class="cell" index="5"></div>
+                    <div class="cell" index="6"></div>
+                    <div class="cell" index="7"></div>
+                    <div class="cell" index="8"></div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <h3 class="page-footer-title">Todos los derechos reservados - blessddd's Inc</h3>
+    </footer>
+    <script src="../scripts/ticTacToe.js"></script>
+</body>
+</html>

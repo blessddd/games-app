@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Piedra Papel o Tijera Game</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="kevv">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="The best Rock Paper Scissors Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/piedra-papel-tijera.css">
+    <link rel="stylesheet" href="../styles/page-style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <a class="menu-nav__title" href="../pages/index.html">Apps</a>
+        </nav>
+    </header>
+    <main>
+        <section class="game-section">
+            <section class="game-info-section">
+                <article>
+                    <header>
+                        <h1 class="game-title">Piedra Papel o Tijera</h1>
+                        <h2 class="game-subtitle">Developed by kevv</h2>
+                    </header>
+                    <p class="game-description">Piedra Papel o Tijera es un juego el cual consiste en vencer a tu oponente eligiendo un elemento al azar el cual  gane al eligido por tu oponente, en esta versión del juego te enfrentarás a un CPU, ¿Serás capaz de vencerlo?</p>
+                    <hr class="line"/>
+                </article>
+            </section>
+            <section class="inactive-game">
+                <span class="inactive-game__message">Lo sentimos, El juego no está disponible en tu dispositivo 😓</span>
+            </section>
+            <section>
+                <article class="register">
+                    <header>
+                        <h2 class="title">Ingresa tu nombre</h2>
+                    </header>
+                    <aside class="send-info">
+                        <input type="text" placeholder="Ingresa tu nombre" class="username-input">
+                        <button class="send-button">Enviar</button>
+                    </aside>
+                </article>
+            </section>
+            <section class="game-intro-container">
+                <article class="game-intro">
+                    <button class="start-button">Jugar</button>
+                </article>
+            </section>
+            <section class="game-selection-container">
+                <h2 class="game__message"></h2>
+                <section class="game__images">
+                    <article class="rock">
+                        <h3 class="elements-title">Piedra</h3>
+                        <img 
+                            src="../img/piedra-papel-tijera/piedra.jpg" 
+                            alt="Una imagen sobre una piedra usada para una carta de seleccion / An image of a rock used for a selection card" 
+                            class="element piedraImg"
+                        >
+                        <button class="selection rock-button">Elegir</button>
+                    </article>
+                    <article class="paper">
+                        <h3 class="elements-title">Papel</h3>
+                        <img 
+                            src="../img/piedra-papel-tijera/papel.jpg" 
+                            alt="Una imagen sobre una hoja de papel usada para una carta de seleccion / An image of a paper sheet used for a selection card" 
+                            class="element papelImg"
+                        >
+                        <button class="selection paper-button">Elegir</button>
+                    </article>
+                    <article class="scissors">
+                        <h3 class="elements-title">Tijera</h3>
+                        <img 
+                            src="../img/piedra-papel-tijera/tijera.png" 
+                            alt="Una imagen sobre una tijera usada para una carta de seleccion / An image of a scissor used for a selection card" 
+                            class="element tijeraImg"
+                        >
+                        <button class="selection scissors-button">Elegir</button>
+                    </article>
+                </section>
+            </section>
+            <section class="result-section">
+                <span class="result"></span>
+                <article class="selections">
+                    <aside class="user">
+                        <img 
+                            src="" 
+                            alt="Imagen de la selección del usuario" 
+                            class="user-selection"
+                        >
+                        <h3 class="username"></h3>
+                    </aside>
+                    <strong>Vs</strong>
+                    <aside class="cpu">
+                        <img 
+                            src="" 
+                            alt="Imagen de la selección de la CPU" 
+                            class="cpu-selection"
+                        >
+                        <h3 class="cpu">CPU</h3>
+                    </aside>
+                </article>
+                <a href="#" class="keep-playing">Volver a jugar</a>
+            </section>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <h3 class="page-footer-title">Todos los derechos reservados - blessddd's Inc</h3>
+    </footer>
+    <script src="../scripts/piedraPapelTijera.js"></script>
+</body>
+</html>
